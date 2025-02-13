@@ -53,6 +53,12 @@ public class Film {
     public Film() {
     }
 
+    public Film(short id, String title, String description) {
+        this.id = id;
+        this.title = title;
+        this.description = description;
+    }
+
     public Film(short id, String title, String description, Integer releaseYear, short languageId, Integer originalLanguageId, Integer rentalDuration, Float rentalRate, Object rating, LocalDateTime lastUpdate) {
         this.id = id;
         this.title = title;
